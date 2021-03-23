@@ -61,7 +61,7 @@ function reseting(){
 //starting game
 
 const game = () =>{
-    if(!gameResults.yourChoice) return alert("CHOISE A HAND");
+    if(!gameResults.yourChoice) return alert("CHOSE A HAND");
 
     gameResults.pcChoice = aiChoice();
     const conditioning = gameConditioning(gameResults.yourChoice, gameResults.pcChoice);
